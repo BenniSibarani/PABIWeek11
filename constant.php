@@ -1,7 +1,7 @@
 <?php
 
 class coba{
-    const tgglhr = '29-08-2003';
+    const tgglhr = '04-08-2003';
 }
 
 ?>
