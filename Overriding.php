@@ -42,9 +42,9 @@ class gender extends Coba{
 }
 
 //Object
-$ObjectResult1 = new hobby('Brian', 'Napitupulu', 'Bekasi', '29-08-2003',"Meng-Codang");
+$ObjectResult1 = new hobby('Benni', 'Sibarani', 'Tebing Tinggi', '04-08-2003',"Ngodangdong");
 echo $ObjectResult1 -> getRetrunLengkap();
-$ObjectResult2 = new gender('Erika', 'Napitupulu', 'Bekasi', '01-10-1999', "Perempuan");
+$ObjectResult2 = new gender('Ganda', 'Sibarani', 'Tebing Tinggi', '29-09-1999', "Laki-Laki");
 echo "<br><hr>";
 echo $ObjectResult2 -> getRetrunLengkap();
 ?>
