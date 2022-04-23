@@ -25,9 +25,9 @@ class Coba{
   }
   public function getRetrunLengkap(){ //Method
     $str = "Nama : {$this->name} {$this->marga} <br> Tempat Tanggal Lahir : {$this->tptlhr}/{$this->tgglhr}";  // object type
-    if ($this -> name == "Brian") {
+    if ($this -> name == "Benni") {
       $str .= "<br>Hobi : {$this->hobby}";
-   }else if($this -> name == "Erika") {
+   }else if($this -> name == "Ganda") {
       $str .= "<br>Jenis Kelamin : {$this->gender}";
    }
     return $str;
@@ -42,9 +42,9 @@ class gender extends Coba{
 }
 
 //Object
-$ObjectResult1 = new hobby('Brian', 'Napitupulu', 'Bekasi', '29-08-2003',0,"Meng-Codang");
+$ObjectResult1 = new hobby('Benni', 'Sibarani', 'Tebing Tinggi', '04-08-2003',0,"Ngodangdong");
 echo $ObjectResult1 -> getRetrunLengkap();
-$ObjectResult2 = new gender('Erika', 'Napitupulu', 'Bekasi', '01-10-1999', "Perempuan", 0);
+$ObjectResult2 = new gender('Ganda', 'Sibarani', 'Tebing Tinggi', '27-09-1999', "Laki-Laki", 0);
 echo "<br><hr>";
 echo $ObjectResult2 -> getRetrunLengkap();
 ?>
